@@ -15,6 +15,7 @@ public class HelloWorldTest {
         
         String msg = hello.getMessage();
         Assert.assertNotNull(msg);
+        Assert.assertTrue(msg.length() > 0);
         Assert.assertEquals(message, msg);        
     }
 }
